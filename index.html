@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/1719550612466.png" type="image/x-icon">>
+    <title>Special Gift</title>
+</head>
+<body>
+    <div class="greetings">
+        <span>H</span>
+        <span>A</span>
+        <span>P</span>
+        <span>P</span>
+        <span>Y</span>
+      
+     </div>
+      <div class="greetings3">
+        <span>B</span>
+        <span>I</span>
+        <span>R</span>
+        <span>T</span>
+        <span>H</span>
+        <span>D</span>
+        <span>A</span>
+        <span>Y</span>
+        
+      </div>
+     <div class="greetings2">
+            <span>Z</span>
+            <span>A</span>
+            <span>F</span>
+            <span>R</span>
+            <span>I</span>
+            <span>I</span>
+            <span>D</span>
+            <span>L</span>
+            <span>A</span>
+            <span>N</span>
+           
+            
+            
+    </div>
+    <div class="description">
+        <span>dari bocah imut gemes :b</span>
+    </div>
+    <div class="button">
+        <button>
+            <a href="xixi.html">budaya kebaratan</a>
+        </button>
+            <button>
+                <a href="card.html">kata kata mutiara</a>
+            </button>
+                     
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>White & Blue Twinkling Stars</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: black;
+    }
+
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      border-radius: 50%;
+      opacity: 0;
+      animation: sparkle 3s infinite ease-in-out;
+    }
+
+    @keyframes sparkle {
+      0%, 100% {
+        opacity: 0.2;
+        transform: scale(0.5);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.5);
+      }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    const starCount = 200;
+    const colors = ['white', '#66ccff']; 
+
+    for (let i = 0; i < starCount; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+      star.style.left = `${Math.random() * window.innerWidth}px`;
+      star.style.top = `${Math.random() * window.innerHeight}px`;
+      star.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+      star.style.animationDelay = `${Math.random() * 3}s`;
+      star.style.animationDuration = `${2 + Math.random() * 2}s`;
+      document.body.appendChild(star);
+    }
+  </script>
+
+
+
+</body>
+</html>

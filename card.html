@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Letter For You</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="icon" href="img/invitation_2474332.png" type="image/x-icon">
+  <title>Audio Permission</title>
+  <audio id="myAudio" src="mp3/notalotjustforever.mp3"></audio>
+</head>
+<body>
+
+<audio id="myAudio" src="mp3/notalotjustforever.mp3"></audio>
+
+  <button id="playButton">play lagu</button>
+
+  <script>
+    document.getElementById('playButton').addEventListener('click', function () {
+      const audio = document.getElementById('myAudio');
+      audio.play()
+        .then(() => {
+          console.log("Audio is playing.");
+        })
+        .catch(error => {
+          console.error("Playback failed:", error);
+        });
+    });
+  </script>
+
+<div class="envelope new">
+  <div class="front">
+    <div class="mail">
+      <p>Happy Birthday</p>
+      <img src="img/CAKE.gif" width="210">
+    </div>
+  </div>
+  <div class="back">
+    <div class="letter">
+		<p>Hepi beday bocah. finally 18 and legal. I'm here wishing u nothing but happiness, good health and success in everything u do. May your days be filled with laughter, night filled with peace and your heart filled with the things you've always dreamed of. I believe, u're worthy and deserve all the good that comes to you.</p>
+      <p>Meeting you was truly unplanned. Who would've thought two souls could cross paths through spotify? lol & somehow the similarities we shared made us feel so close than strangers ever should, as if fate had mirrored me in you. </p>
+      <p>As you grow older, I hope you'll grow your wings and spread them fearlessly. Make the world amazed of how far & high you've flown. I may not be there to see where life takes you, but I know u'll go far, further than I could ever imagine. And if at any point my words or actions have ever hurt you, Im truly sorry.</p>
+      <p>Enjoy your day to the fullest, Zafri.
+        Happy Birthday.
+      </p>
+      
+	<div class="box">
+		<div class="cke">
+			<div class="cndle">
+				<div class="fre"></div>
+</div>
+		</div>
+	</div>
+    </div>
+    <div class="flip left-flip"></div>
+    <div class="flip right-flip"></div>
+    <div class="flip bottom-flip"></div>
+    <div class="flip top-flip"></div>
+  </div>
+</div>
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/jquery.spritely/0.6.5/jquery.spritely.min.js'></script><script  src="script.js"></script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Audio Permission</Audio></title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #fff0f5; 
+      font-family: Arial, sans-serif;
+    }
+
+    #playButton {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+
+      background-color: #f8c8dc;  
+      border: none;
+      color: #fff;
+      padding: 12px 24px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #playButton:hover {
+      background-color: #f4a6c0;
+      transform: scale(1.05);
+    }
+
+    #playButton:active {
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+<body>
+
+</body>
+</html>
